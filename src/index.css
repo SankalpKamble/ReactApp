@@ -1,0 +1,72 @@
+.card {
+  padding: 2.5em;
+  text-align: center;
+  background: linear-gradient(145deg, #ffffff, #f0f0f0);
+  border-radius: 20px;
+  box-shadow: 20px 20px 60px #d9d9d9,
+             -20px -20px 60px #ffffff;
+  max-width: 400px;
+  margin: 2rem auto;
+}
+
+.card h1 {
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.card h2 {
+  color: #3498db;
+  font-size: 2.5rem;
+  margin: 1.5rem 0;
+}
+
+.button-group {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+button {
+  padding: 0.8em 1.5em;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  font-weight: 600;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+button:active {
+  transform: translateY(0);
+}
+
+/* Different colors for each button */
+button:nth-child(1) {
+  background-color: #2ecc71; /* green */
+}
+
+button:nth-child(2) {
+  background-color: #e74c3c; /* red */
+}
+
+button:nth-child(3) {
+  background-color: #3498db; /* blue */
+}
+
+/* Add this to ensure the background looks good */
+body {
+  background-color: #f5f6fa;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
